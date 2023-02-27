@@ -10,3 +10,11 @@ body {
     transform: translate(-50% ,-50%);
     display: block;
   }
+
+  .sun {
+    height: 150px;
+    width: 159px;
+    border-radius: 50%;
+    background-color: #fcd25b;
+    border: 3px solid #fcd25b;
+  }
