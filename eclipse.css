@@ -26,4 +26,23 @@ body {
     background-color: #ffffff;
     top: -5px;
     left: 0px;
+    animation: moveshadow 10s infinite 1.5s;
   }
+
+  /* Keyframes */
+
+@keyframes moveshadow {
+0% {
+    transform: translateX(150px);
+    background-color: #ffffff;
+}
+50% {
+    transform: translateX(-10px);
+    background-color: #000000;
+}
+100% {
+    transform: translateX(-170px);
+    background-color: #ffffff;
+}
+}
+  
