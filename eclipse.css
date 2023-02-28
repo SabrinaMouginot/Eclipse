@@ -18,3 +18,12 @@ body {
     background-color: #fcd25b;
     border: 3px solid #fcd25b;
   }
+
+  .shadow {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    top: -5px;
+    left: 0px;
+  }
